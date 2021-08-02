@@ -1,5 +1,5 @@
-const nav = require('./nav.js');
-const htmlModules = require('./htmlModules.js');
+const nav = require('./nav.js')
+const htmlModules = require('./htmlModules.js')
 // const sidebar = require('./sidebar.js');
 
 // 主题配置
@@ -52,8 +52,9 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    name: 'Evan Xu',
+    avatar:
+      'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+    name: 'SunJianXu',
     slogan: '前端界的小学生',
   },
   social: {
@@ -83,5 +84,5 @@ module.exports = {
     copyrightInfo:
       'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
-  htmlModules // 插入hmtl(广告)模块
+  htmlModules, // 插入hmtl(广告)模块
 }
