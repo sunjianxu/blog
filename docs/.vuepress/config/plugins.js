@@ -43,7 +43,10 @@ module.exports = [
     'one-click-copy',
     {
       // 代码块复制按钮
-      copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
+      copySelector: [
+        'div[class*="language-"] pre',
+        'div[class*="aside-code"] aside',
+      ], // String or Array
       copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
       duration: 1000, // prompt message display time.
       showInMobile: false, // whether to display on the mobile side, default: false.
@@ -83,11 +86,11 @@ module.exports = [
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        clientID: '2c21dc0d0e54385112e0',
+        clientSecret: '046b98d8e72b125d7f10ebb62215fccebfc0efbd',
+        repo: 'blog', // GitHub 仓库
+        owner: 'sunjianxu', // GitHub仓库所有者
+        admin: ['sunjianxu'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
@@ -103,7 +106,7 @@ module.exports = [
     {
       transformer: (timestamp, lang) => {
         const dayjs = require('dayjs') // https://day.js.org/
-        return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+        return dayjs(timestamp).format('YYYY/MM/DD HH:mm:ss')
       },
     },
   ],
