@@ -18,13 +18,10 @@ module.exports = [
         items: [
           { text: '《JavaScript教程》笔记', link: '/note/javascript/' },
           { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
+          { text: '《JavaScript DOM 编程艺术》笔记', link: '/note/dom/' },
           { text: '《ES6 教程》笔记', link: '/note/es6/' },
           { text: '《Vue》笔记', link: '/note/vue/' },
           { text: '《React》笔记', link: '/note/react/' },
-          // {
-          //   text: '《TypeScript 从零实现 axios》',
-          //   link: '/note/typescript-axios/',
-          // },
           {
             text: '《Git》学习笔记',
             link: '/note/git/',
@@ -33,10 +30,6 @@ module.exports = [
             text: '《TypeScript》学习笔记',
             link: '/pages/51afd6/',
           },
-          // {
-          //   text: 'JS设计模式总结笔记',
-          //   link: '/pages/4643cd/',
-          // },
         ],
       },
     ],
