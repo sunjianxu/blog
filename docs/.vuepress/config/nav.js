@@ -39,7 +39,7 @@ module.exports = [
     link: '/ui/',
     items: [
       { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      { text: 'CSS', link: '/pages/c8f128/' },
     ],
   },
   {
